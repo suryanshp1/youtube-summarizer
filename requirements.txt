@@ -1,0 +1,8 @@
+streamlit
+yt-dlp
+python-decouple
+langchain
+ctransformers
+transformers
+langchain_community
+deepgram-sdk==2.12.0
