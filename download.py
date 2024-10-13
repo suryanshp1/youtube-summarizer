@@ -2,8 +2,6 @@ from yt_dlp import YoutubeDL
 
 def download_audio_from_url(url):
     videoinfo = YoutubeDL().extract_info(url=url, download=False)
-    print("videoinfo------------------------")
-    print(videoinfo)
     length = videoinfo['duration']
     filename = f"./audio/youtube/{videoinfo['id']}.mp3"
     options = {
